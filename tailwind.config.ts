@@ -52,6 +52,25 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Nord color palette
+				nord: {
+					0: 'hsl(var(--nord0))',
+					1: 'hsl(var(--nord1))',
+					2: 'hsl(var(--nord2))',
+					3: 'hsl(var(--nord3))',
+					4: 'hsl(var(--nord4))',
+					5: 'hsl(var(--nord5))',
+					6: 'hsl(var(--nord6))',
+					7: 'hsl(var(--nord7))',
+					8: 'hsl(var(--nord8))',
+					9: 'hsl(var(--nord9))',
+					10: 'hsl(var(--nord10))',
+					11: 'hsl(var(--nord11))',
+					12: 'hsl(var(--nord12))',
+					13: 'hsl(var(--nord13))',
+					14: 'hsl(var(--nord14))',
+					15: 'hsl(var(--nord15))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +81,9 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
