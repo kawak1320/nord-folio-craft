@@ -20,6 +20,8 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
+        {/* Cambio menor para forzar build: */}
+        <div style={{ display: "none" }}>Build: 2025-08-02 2nd trigger</div>
         <HashRouter>
           <Routes>
             <Route path="/" element={<Index />} />
