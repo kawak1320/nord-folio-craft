@@ -13,7 +13,7 @@ export function Hero() {
                 Hello, I'm
               </h2>
               <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-nord-10 via-nord-9 to-nord-8 bg-clip-text text-transparent">
-                Alex Nord
+                kawaK
               </h1>
               <div className="text-xl md:text-2xl text-muted-foreground space-y-2">
                 <p>Graphic Designer</p>
